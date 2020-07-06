@@ -25,7 +25,7 @@ export default function GoalsSection({ cargaHoraria }){
           src={startImg}
           title="Início"
           firstText="Início"
-          secondText="Julho/2020"
+          secondText="Agosto/2020"
         />
       </div>
       <div className="goals">

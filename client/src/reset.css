@@ -4,6 +4,7 @@
   --primary-color: #00C0E4;
   --text-color: #484848;
   --section-width: 1140px;
+  --button-color: #00a241;
 }
 
 *,
@@ -28,7 +29,7 @@ a {
 }
 
 .button {
-  background: var(--primary-color);
+  background: var(--button-color);
   color: #fff;
   font-weight: 600;
   padding: 15px 22px;

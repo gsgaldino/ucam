@@ -10,6 +10,7 @@ const html = fs.readFileSync('./client/build/index.html', 'utf-8');
 
 const publicPath = path.join(__dirname, '..', '..', '..', 'etc', 'letsencrypt', 'live', 'alura.candidomendes.edu.br')
 
+
 const httpsOptions = {
   key: fs.readFileSync(`${publicPath}/privkey.pem`),
   cert: fs.readFileSync(`${publicPath}/cert.pem`)

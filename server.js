@@ -1,5 +1,6 @@
-const fs = require('fs')
-const https = require('https')
+const fs = require('fs');
+const https = require('https');
+const http = require('http');
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -29,4 +30,6 @@ app.use(express.static(publicPathClient));
 app.use('*', express.static(publicPathClient));
 
 https.createServer(httpsOptions, app).listen(port);
-console.log('server running')
+http.createServer(app).listen(80);
+
+console.log('Server running');

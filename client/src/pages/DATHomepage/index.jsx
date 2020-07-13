@@ -169,12 +169,22 @@ export default function DATHomepage(){
         formId="e62cc904-70ca-4f20-bb60-78e4af0dae8e"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"
       />
-      <GoalsSection cargaHoraria="100 Horas"/>
+
+      <GoalsSection 
+        cargaHoraria="100 Horas"
+        inicio="Agosto/2020"
+        modalidade="100% on-line"
+        investimento="R$ 990,00"
+      />
+      
       <CourseObjective text="O curso tem como objetivo preparar gestores e futuros gerentes as novas tendências e melhores práticas administrativas do mercado, apresentando ferramentas e metodologias eficazes para auxiliar neste processo."/>
 
       <ForWhoContainer text="O curso é destinado para profissionais e gestores que desejam conhecer e implantar as metodologias ágeis voltadas a gestão, a fim de promover uma melhoria nos processos. E também para profissionais que já trabalham com esta metodologia e desejam se atualizar ou detalhar mais seus conhecimentos."/>
       
-      <ModulesSection content={modulesSectionContent()}/>
+      <ModulesSection
+        title="Módulos"
+        content={modulesSectionContent()}
+      />
       {/* <Teachers /> */}
       <FAQSection certification="Digital & Agile Thinking"/>
       <CTA href="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"/>

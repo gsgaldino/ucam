@@ -4,7 +4,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import './responsive.css';
 import './styles.css';
 
-export default function ModulesSection({ content }){
+export default function ModulesSection({ title, content }){
   const [listState, ChangeListState] = useState(false);
 
   return (
@@ -14,7 +14,7 @@ export default function ModulesSection({ content }){
         onClick={() => ChangeListState(!listState)}
       >
         <div className="container-text">
-          <h2>Módulos</h2>
+          <h2>{ title }</h2>
           <MdKeyboardArrowDown
             color="var(--primary-color)"
             size="30"

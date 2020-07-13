@@ -1,0 +1,16 @@
+.Homepage {
+  width: 100%;
+  text-align: center;
+}
+
+.Homepage .Container p {
+  padding: 50px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Homepage .padding .Modules__Section .content .Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

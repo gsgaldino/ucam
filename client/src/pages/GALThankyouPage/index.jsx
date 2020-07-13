@@ -1,7 +1,7 @@
 import React from 'react';
 import ThankyouPage from '../components/ThankyouPage';
 
-export default function GAGThankyouPage(){
+export default function GALThankyouPage(){
   return (
     <ThankyouPage />
   )

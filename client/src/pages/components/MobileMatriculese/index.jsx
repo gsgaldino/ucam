@@ -3,15 +3,15 @@ import React from 'react';
 import './responsive.css';
 import './styles.css';
 
-export default function MobileMatriculese(){
+export default function MobileMatriculese({ value, href}){
   return (
     <div className="Mobile__Matriculese">
       <div className="container">
         <p><small>Investimento</small></p>
-        <p>R$ 900,00</p>
+        <p>{ value }</p>
       </div>
       <div className="container">
-        <a href="/">Matricule-se já!</a>
+        <a href={ href }>Matricule-se já!</a>
       </div>
     </div>
   )

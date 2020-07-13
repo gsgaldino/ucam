@@ -189,7 +189,12 @@ export default function DATHomepage(){
       <FAQSection certification="Digital & Agile Thinking"/>
       <CTA href="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"/>
       <AlgumaDuvidaSection />
-      <MobileMatriculese />
+
+      <MobileMatriculese
+        value="R$ 990,00"
+        href="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"
+      />
+      
       <Footer />
     </div>
   )

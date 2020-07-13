@@ -196,7 +196,12 @@ export default function GALHomepage(){
       <FAQSection certification="Gerente Ágil"/>
       <CTA href="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"/>
       <AlgumaDuvidaSection />
-      <MobileMatriculese />
+
+      <MobileMatriculese
+        value="R$ 990,00"
+        href="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"
+      />
+
       <Footer />
     </div>
   )

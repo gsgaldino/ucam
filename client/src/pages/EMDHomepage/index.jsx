@@ -167,7 +167,12 @@ export default function EMDHomepage(){
       <FAQSection certification="Empreendedorismo Digital"/>
       <CTA href="https://cursos.alura.com.br/compra/candido-mendes-empreendedorismo-digital"/>
       <AlgumaDuvidaSection />
-      <MobileMatriculese />
+
+      <MobileMatriculese
+        value="R$ 900,00"
+        href="https://cursos.alura.com.br/compra/candido-mendes-empreendedorismo-digital"
+      />
+
       <Footer />
     </div>
   )

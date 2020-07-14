@@ -1,23 +1,11 @@
 import React from 'react';
+import LandingPage from '../components/LandingPage';
 
-import Header from '../components/Header';
-import FirstSection from '../components/FirstSection';
-import GoalsSection from '../components/GoalsSection';
-import CourseObjective from '../components/CourseObjective';
-import ForWhoContainer from '../components/ForWhoContainer';
-import ModulesSection from '../components/ModulesSection';
-/* import Teachers from '../components/Teachers'; */
-import FAQSection from '../components/FAQSection';
-import CTA from '../components/CTA';
-import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
-import MobileMatriculese from '../components/MobileMatriculese';
-import Footer from '../components/Footer';
 
-import './styles.css';
-
-export default function DATHomepage(){
-  const modulesSectionContent = () => (
-    <ol>
+export default function NovaLanding(){
+  const modulos = () => (
+    <React.Fragment>
+      <ol>
           <li><strong>Aprendendo com o Design e UX</strong>
             <ul>
               <li>
@@ -159,43 +147,28 @@ export default function DATHomepage(){
             </ul>
             
           </li>
-        </ol>
+        </ol>   
+    </React.Fragment>
   )
+
   return (
-    <div className="Homepage">
-      <Header />
-      <FirstSection 
-        title="Digital & Agile Thinking"
+    <React.Fragment>
+
+      <LandingPage
+        titulo="Digital & Agile Thinking"
         formId="e62cc904-70ca-4f20-bb60-78e4af0dae8e"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"
-      />
-
-      <GoalsSection 
-        cargaHoraria="100 Horas"
+        cargaHoraria="100 horas"
         inicio="Agosto/2020"
         modalidade="100% on-line"
         investimento="R$ 990,00"
+        objetivoDoCurso="O curso tem como objetivo preparar gestores e futuros gerentes as novas tendências e melhores práticas administrativas do mercado, apresentando ferramentas e metodologias eficazes para auxiliar neste processo."
+        
+        paraQuemSeDestina="O curso é destinado para profissionais e gestores que desejam conhecer e implantar as metodologias ágeis voltadas a gestão, a fim de promover uma melhoria nos processos. E também para profissionais que já trabalham com esta metodologia e desejam se atualizar ou detalhar mais seus conhecimentos."
+        modulos={modulos()}
       />
-      
-      <CourseObjective text="O curso tem como objetivo preparar gestores e futuros gerentes as novas tendências e melhores práticas administrativas do mercado, apresentando ferramentas e metodologias eficazes para auxiliar neste processo."/>
 
-      <ForWhoContainer text="O curso é destinado para profissionais e gestores que desejam conhecer e implantar as metodologias ágeis voltadas a gestão, a fim de promover uma melhoria nos processos. E também para profissionais que já trabalham com esta metodologia e desejam se atualizar ou detalhar mais seus conhecimentos."/>
-      
-      <ModulesSection
-        title="Módulos"
-        content={modulesSectionContent()}
-      />
-      {/* <Teachers /> */}
-      <FAQSection certification="Digital & Agile Thinking"/>
-      <CTA href="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"/>
-      <AlgumaDuvidaSection />
-
-      <MobileMatriculese
-        value="R$ 990,00"
-        href="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"
-      />
-      
-      <Footer />
-    </div>
+    </React.Fragment>
   )
 }
+

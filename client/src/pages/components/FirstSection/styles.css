@@ -3,9 +3,10 @@
   background: url('../../../assets/bg-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 90px 0px;
+  padding: 20px;
   width: var(--section-width);
   margin: 0 auto;
+  height: 400px;
 }
 
 .First__Section .container {
@@ -14,7 +15,9 @@
 }
 
 .First__Section .container:first-child {
-  width: 60%;
+  width: 50%;
+  margin-left: -24px;
+  margin-top: 50px;
 }
 
 .First__Section .container a {

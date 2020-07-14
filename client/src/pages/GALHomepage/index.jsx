@@ -1,25 +1,12 @@
 import React from 'react';
+import LandingPage from '../components/LandingPage';
 
-import Header from '../components/Header';
-import FirstSection from '../components/FirstSection';
-import GoalsSection from '../components/GoalsSection';
-import CourseObjective from '../components/CourseObjective';
-import ForWhoContainer from '../components/ForWhoContainer';
-import ModulesSection from '../components/ModulesSection';
-import FAQSection from '../components/FAQSection';
-import CTA from '../components/CTA';
-import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
-import MobileMatriculese from '../components/MobileMatriculese';
-import Footer from '../components/Footer';
-
-import './styles.css';
-import './responsive.css';
 
 export default function GALHomepage(){
-  const firstSectionTitle = () => <p>Gerente<br></br>Ágil</p>
 
-  const modulesSectionContent = () => (
-    <ol>
+  const modulos = () => (
+    <React.Fragment>
+      <ol>
           <li><strong>Fundamentos do Agile</strong>
             <ul>
               <li>
@@ -168,42 +155,31 @@ export default function GALHomepage(){
           </li>
 
         </ol>
+    </React.Fragment>
   )
+
   return (
-    <div className="GAGHomepage">
-      <Header />
-      <FirstSection 
-        title={firstSectionTitle()}
+    <React.Fragment>
+
+      <LandingPage
+        titulo="Gerente Ágil"
         formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"
-      />
-      <GoalsSection 
         cargaHoraria="110 horas"
         inicio="Agosto/2020"
         modalidade="100% on-line"
         investimento="R$ 990,00"
-      />
-      
-      <CourseObjective text="O curso tem como objetivo ensinar e tangibilizar todas as etapas pré, durante e pós implantação de negócio, esclarecendo ao empreendedor todo conhecimento sobre as questões burocráticas,mercadológicas, legais, financeiras, gerenciais, comerciais, tecnológicas e promocionais atreladas ao mercado digital. Possibilitando assim uma maior exploração do mercado Digital, fortalecendo novas e melhoradas práticas."/>
-
-      <ForWhoContainer text="Este curso é voltado para gestores e profissionais que já aplicam esta metodologia e desejam aperfeiçoar a técnica. Mas também é direcionado aos profissionais que querem aprender e entender melhor como funciona esta metodologia na prática, a fim de aumentar as possibilidades de ingressar nesta área."/>
-
-      <ModulesSection
-        title="Módulos"
-        content={modulesSectionContent()}
-      />
-      {/* <Teachers /> */}
-      <FAQSection certification="Gerente Ágil"/>
-      <CTA href="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"/>
-      <AlgumaDuvidaSection />
-
-      <MobileMatriculese
-        value="R$ 990,00"
-        href="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"
+        objetivoDoCurso="O curso tem como objetivo ensinar e tangibilizar todas as etapas pré, durante e pós implantação de negócio, esclarecendo ao empreendedor todo conhecimento sobre as questões burocráticas,mercadológicas, legais, financeiras, gerenciais, comerciais, tecnológicas e promocionais atreladas ao mercado digital. Possibilitando assim uma maior exploração do mercado Digital, fortalecendo novas e melhoradas práticas."
+        
+        paraQuemSeDestina="Este curso é voltado para gestores e profissionais que já aplicam esta metodologia e desejam aperfeiçoar a técnica. Mas também é direcionado aos profissionais que querem aprender e entender melhor como funciona esta metodologia na prática, a fim de aumentar as possibilidades de ingressar nesta área."
+        modulos={modulos()}
       />
 
-      <Footer />
-    </div>
+    </React.Fragment>
   )
 }
+
+
+
+
 

@@ -1,25 +1,11 @@
 import React from 'react';
+import LandingPage from '../components/LandingPage';
 
-import Header from '../components/Header';
-import FirstSection from '../components/FirstSection';
-import GoalsSection from '../components/GoalsSection';
-import CourseObjective from '../components/CourseObjective';
-import ForWhoContainer from '../components/ForWhoContainer';
-import ModulesSection from '../components/ModulesSection';
-import FAQSection from '../components/FAQSection';
-import CTA from '../components/CTA';
-import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
-import MobileMatriculese from '../components/MobileMatriculese';
-import Footer from '../components/Footer';
-
-import './styles.css';
-import './responsive.css';
 
 export default function EMDHomepage(){
-  const firstSectionTitle = () => <p>Empreendedorismo<br></br>Digital</p>
-
-  const modulesSectionContent = () => (
-    <ol>
+  const modulos = () => (
+    <React.Fragment>
+        <ol>
           <li><strong>Comece seu negócio</strong>
             <ul>
               <li>
@@ -138,43 +124,30 @@ export default function EMDHomepage(){
             </ul>
           </li>
 
-        </ol>
+        </ol> 
+    </React.Fragment>
   )
+
   return (
-    <div className="GAGHomepage">
-      <Header />
-      <FirstSection 
-        title={firstSectionTitle()}
+    <React.Fragment>
+
+      <LandingPage
+        titulo="Empreendedorismo Digital"
         formId="3ef178e0-d45b-40d2-80ae-2d69242499c4"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-empreendedorismo-digital"
-      />
-      <GoalsSection 
         cargaHoraria="90 horas"
         inicio="Agosto/2020"
         modalidade="100% on-line"
         investimento="R$ 900,00"
-      />
-      
-      <CourseObjective text="O curso tem como objetivo ensinar e tangibilizar todas as etapas pré, durante e pós implantação de negócio, esclarecendo ao empreendedor todo conhecimento sobre as questões burocráticas,mercadológicas, legais, financeiras, gerenciais, comerciais, tecnológicas e promocionais atreladas ao mercado digital. Possibilitando assim uma maior exploração do mercado Digital, fortalecendo novas e melhoradas práticas."/>
-
-      <ForWhoContainer text="Este curso é destinado para profissionais e gestores que desejam abrir um novo negócio ou profissionais que sentem a necessidade de modificar e aperfeiçoar processos digitais dentro de sua empresa."/>
-
-      <ModulesSection
-        title="Módulos"
-        content={modulesSectionContent()}
-      />
-      {/* <Teachers /> */}
-      <FAQSection certification="Empreendedorismo Digital"/>
-      <CTA href="https://cursos.alura.com.br/compra/candido-mendes-empreendedorismo-digital"/>
-      <AlgumaDuvidaSection />
-
-      <MobileMatriculese
-        value="R$ 900,00"
-        href="https://cursos.alura.com.br/compra/candido-mendes-empreendedorismo-digital"
+        objetivoDoCurso="O curso tem como objetivo ensinar e tangibilizar todas as etapas pré, durante e pós implantação de negócio, esclarecendo ao empreendedor todo conhecimento sobre as questões burocráticas, mercadológicas, legais, financeiras, gerenciais, comerciais, tecnológicas e promocionais atreladas ao mercado digital. Possibilitando assim uma maior exploração do mercado Digital, fortalecendo novas e melhoradas práticas."
+        
+        paraQuemSeDestina="Este curso é destinado para profissionais e gestores que desejam abrir um novo negócio ou profissionais que sentem a necessidade de modificar e aperfeiçoar processos digitais dentro de sua empresa."
+        modulos={modulos()}
       />
 
-      <Footer />
-    </div>
+    </React.Fragment>
   )
 }
+
+
 

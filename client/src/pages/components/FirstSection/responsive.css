@@ -1,6 +1,7 @@
 @media screen and (max-width: 800px){
   .First__Section {
     width: 100%;
+    height: auto;
     background-image: url('../../../assets/bg.jpg') !important;
     background-repeat: no-repeat !important;
     background-size: contain;
@@ -13,6 +14,8 @@
 
   .First__Section .container:first-child {
     width: 100% !important;
+    margin: 0 auto;
+    margin-top: 80px;
   }
 
   .First__Section .container {
@@ -23,6 +26,7 @@
   .First__Section h1,
   .First__Section h3 {
     color: var(--text-color);
+    word-wrap: break-word;
   }
 
   .First__Section h1 {

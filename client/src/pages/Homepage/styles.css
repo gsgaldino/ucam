@@ -3,14 +3,65 @@
   text-align: center;
 }
 
-.Homepage .Container p {
+.Homepage .Section p {
   padding: 50px;
   font-size: 20px;
   margin: 10px;
+}
+
+.Homepage .Section .Modality {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  padding: 2px;
+  width: 75%;
+  margin: 10px auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.Homepage .Section {
+  display: flex;
+}
+
+.Homepage .Section .container:first-child {
+  background: linear-gradient(to left, #f7f7f7 80%, #fff);
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.Homepage .Section .container:first-child p {
+  margin: 0px;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+.Homepage .Section .container {
+  width: 50%;
+  position: relative;
+}
+
+.Homepage .Section .container img {
+  position: relative;
+  width: 100%;
+}
+
+.Homepage .padding ,.Modules__Section.open .content {
+  padding-top: 30px;
 }
 
 .Homepage .padding .Modules__Section .content .Container {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.Homepage .padding .Modules__Section .content .Container a {
+  background: var(--primary-color);
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 14px;
 }

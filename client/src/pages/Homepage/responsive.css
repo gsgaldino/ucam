@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px){
+  .Homepage .Section {
+    flex-direction: column;
+  }
+  
+  .Homepage .Section .container {
+    width: 100%;
+  }
+  
+  .Homepage .padding .Modules__Section .content .Container {
+    flex-direction: column;
+  }
+  
+  .Homepage .padding .Modules__Section .content .Container a {
+    margin: 10px auto;
+    width: 100%;
+  }
+  
+}

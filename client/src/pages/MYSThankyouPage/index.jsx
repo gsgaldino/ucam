@@ -1,7 +1,7 @@
 import React from 'react';
 import ThankyouPage from '../components/ThankyouPage';
 
-export default function CIFThankyouPage(){
+export default function MYSThankyouPage(){
   return (
     <ThankyouPage />
   )

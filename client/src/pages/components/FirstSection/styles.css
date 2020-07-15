@@ -17,7 +17,12 @@
 .First__Section .container:first-child {
   width: 50%;
   margin-left: -24px;
-  margin-top: 50px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
 }
 
 .First__Section .container a {

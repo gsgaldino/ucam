@@ -5,7 +5,7 @@
     background-image: url('../../../assets/bg.jpg') !important;
     background-repeat: no-repeat !important;
     background-size: contain;
-    background-position-y: -100px;
+    background-position-y: -120px;
     background-position-x: center;
     text-align: center;
   
@@ -15,7 +15,6 @@
   .First__Section .container:first-child {
     width: 100% !important;
     margin: 0 auto;
-    margin-top: 80px;
   }
 
   .First__Section .container {
@@ -45,6 +44,7 @@
     width: 80% ;
     background: #fff;
     position: relative;
+    box-shadow: 0 0 30px rgba(0,0,0,.2);
   }
   
 }

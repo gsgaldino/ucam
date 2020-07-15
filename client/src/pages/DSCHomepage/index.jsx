@@ -2,7 +2,7 @@ import React from 'react';
 import LandingPage from '../components/LandingPage';
 
 
-export default function CIFHomepage(){
+export default function DSCHomepage(){
 
   const modulos = () => (
     <React.Fragment>
@@ -19,13 +19,13 @@ export default function CIFHomepage(){
     <React.Fragment>
 
       <LandingPage
-        titulo="Certificação ITIL Foundation"
+        titulo="Data Science"
         formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
-        linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-certificacao-itil-foundation"
-        cargaHoraria="50 horas"
+        linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-data-science"
+        cargaHoraria="80 horas"
         inicio="Agosto/2020"
         modalidade="100% on-line"
-        investimento="R$ 630,00"
+        investimento="R$ 800,00"
         objetivoDoCurso="Lorem Ipsum"
         
         paraQuemSeDestina="Lorem Ipsum"

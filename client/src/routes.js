@@ -33,6 +33,24 @@ import DPSThankyouPage from './pages/DPSThankyouPage';
 import ECMHomepage from './pages/ECMHomepage';
 import ECMThankyouPage from './pages/ECMThankyouPage';
 
+import BDPHomepage from './pages/BDPHomepage';
+import BDPThankyouPage from './pages/BDPThankyouPage';
+
+import BDSHomepage from './pages/BDSHomepage';
+import BDSThankyouPage from './pages/BDSThankyouPage';
+
+import DSCHomepage from './pages/DSCHomepage';
+import DSCThankyouPage from './pages/DSCThankyouPage';
+
+import MLRHomepage from './pages/MLRHomepage';
+import MLRThankyouPage from './pages/MLRThankyouPage';
+
+import MICHomepage from './pages/MICHomepage';
+import MICThankyouPage from './pages/MICThankyouPage';
+
+import MYSHomepage from './pages/MYSHomepage';
+import MYSThankyouPage from './pages/MYSThankyouPage';
+
 import Page404 from './pages/Page404';
 
 export default function Routes(){
@@ -71,6 +89,24 @@ export default function Routes(){
 
         <Route path="/formacao-e-commerce" exact component={ECMHomepage} />
         <Route path="/obrigado-formacao-e-commerce" exact component={ECMThankyouPage} />
+
+        <Route path="/business-intelligence-data-warehouse-pentaho" exact component={BDPHomepage} />
+        <Route path="/obrigado-business-intelligence-data-warehouse-pentaho" exact component={BDPThankyouPage} />
+
+        <Route path="/business-intelligence-data-warehouse" exact component={BDSHomepage} />
+        <Route path="/obrigado-business-intelligence-data-warehouse" exact component={BDSThankyouPage} />
+
+        <Route path="/data-science" exact component={DSCHomepage} />
+        <Route path="/obrigado-data-science" exact component={DSCThankyouPage} />
+
+        <Route path="/machine-learning" exact component={MLRHomepage} />
+        <Route path="/obrigado-machine-learning" exact component={MLRThankyouPage} />
+
+        <Route path="/microsoft-sql-server-2017" exact component={MICHomepage} />
+        <Route path="/obrigado-microsoft-sql-server-2017" exact component={MICThankyouPage} />
+
+        <Route path="/oracle-mysql" exact component={MYSHomepage} />
+        <Route path="/obrigado-oracle-mysql" exact component={MYSThankyouPage} />
 
         <Route path="/" component={Page404} />
 

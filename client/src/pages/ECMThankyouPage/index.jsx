@@ -1,7 +1,7 @@
 import React from 'react';
 import ThankyouPage from '../components/ThankyouPage';
 
-export default function DATThankyouPage(){
+export default function ECMThankyouPage(){
   return (
     <ThankyouPage />
   )

@@ -2,7 +2,7 @@ import React from 'react';
 import LandingPage from '../components/LandingPage';
 
 
-export default function BAGHomepage(){
+export default function DPSHomepage(){
 
   const modulos = () => (
     <React.Fragment>

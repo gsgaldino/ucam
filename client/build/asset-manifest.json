@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a18e304.chunk.css",
-    "main.js": "/static/js/main.38b0fb2a.chunk.js",
-    "main.js.map": "/static/js/main.38b0fb2a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a85eae98.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a85eae98.js.map",
-    "static/js/2.fe540a3f.chunk.js": "/static/js/2.fe540a3f.chunk.js",
-    "static/js/2.fe540a3f.chunk.js.map": "/static/js/2.fe540a3f.chunk.js.map",
-    "static/js/3.827b27e8.chunk.js": "/static/js/3.827b27e8.chunk.js",
-    "static/js/3.827b27e8.chunk.js.map": "/static/js/3.827b27e8.chunk.js.map",
+    "main.css": "/static/css/main.ad3def3c.chunk.css",
+    "main.js": "/static/js/main.c4f59915.chunk.js",
+    "main.js.map": "/static/js/main.c4f59915.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3fec1154.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3fec1154.js.map",
+    "static/js/2.fe404e21.chunk.js": "/static/js/2.fe404e21.chunk.js",
+    "static/js/2.fe404e21.chunk.js.map": "/static/js/2.fe404e21.chunk.js.map",
+    "static/js/3.06efede7.chunk.js": "/static/js/3.06efede7.chunk.js",
+    "static/js/3.06efede7.chunk.js.map": "/static/js/3.06efede7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.047067f9d339dd7ca2c433878bbb41d8.js": "/precache-manifest.047067f9d339dd7ca2c433878bbb41d8.js",
+    "precache-manifest.6b6a6dcb7e9d593f1adc0a74581d1095.js": "/precache-manifest.6b6a6dcb7e9d593f1adc0a74581d1095.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9a18e304.chunk.css.map": "/static/css/main.9a18e304.chunk.css.map",
-    "static/js/2.fe540a3f.chunk.js.LICENSE.txt": "/static/js/2.fe540a3f.chunk.js.LICENSE.txt",
+    "static/css/main.ad3def3c.chunk.css.map": "/static/css/main.ad3def3c.chunk.css.map",
+    "static/js/2.fe404e21.chunk.js.LICENSE.txt": "/static/js/2.fe404e21.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/static/media/bg-desktop.21a4db10.jpg",
     "static/media/responsive.css": "/static/media/bg.cf4b4bd7.jpg",
+    "static/media/heroe.jpg": "/static/media/heroe.35fa31f0.jpg",
     "static/media/logo-ucam-300.jpg": "/static/media/logo-ucam-300.dcf4df7b.jpg",
     "static/media/ucam-pb.png": "/static/media/ucam-pb.6c6edc87.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a85eae98.js",
-    "static/js/2.fe540a3f.chunk.js",
-    "static/css/main.9a18e304.chunk.css",
-    "static/js/main.38b0fb2a.chunk.js"
+    "static/js/runtime-main.3fec1154.js",
+    "static/js/2.fe404e21.chunk.js",
+    "static/css/main.ad3def3c.chunk.css",
+    "static/js/main.c4f59915.chunk.js"
   ]
 }

@@ -122,7 +122,7 @@ export default function DPSHomepage(){
 
       <LandingPage
         titulo="Desenvolvimento Pessoal"
-        formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
+        formId="308134be-c5f8-49bc-a582-92e5abb9f01b"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-desenvolvimento-pessoal"
         cargaHoraria="90 horas"
         inicio="Agosto/2020"

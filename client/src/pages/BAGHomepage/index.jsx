@@ -103,7 +103,7 @@ export default function BAGHomepage(){
 
       <LandingPage
         titulo="Business Agility"
-        formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
+        formId="8c34ad01-e420-44f8-8275-e3e8edbaf324"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-business-agility"
         cargaHoraria="60 horas"
         inicio="Agosto/2020"

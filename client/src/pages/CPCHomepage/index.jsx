@@ -122,7 +122,7 @@ export default function CPCHomepage(){
 
       <LandingPage
         titulo="Certificação PMP e CAPM do PMI"
-        formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
+        formId="85329cd3-2c2c-4c73-aba1-b5a56dcec19d"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-certificacao-pmp-capm-pmi"
         cargaHoraria="70 horas"
         inicio="Agosto/2020"

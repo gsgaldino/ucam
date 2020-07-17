@@ -51,7 +51,7 @@ export default function CBTHomepage(){
 
       <LandingPage
         titulo="Certificação Cobit 5"
-        formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
+        formId="7f83ca89-fc44-4903-ac9d-e06ae1a6a307"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-certificacao-cobit-5"
         cargaHoraria="50 horas"
         inicio="Agosto/2020"

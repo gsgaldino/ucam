@@ -89,7 +89,7 @@ export default function ECMHomepage(){
 
       <LandingPage
         titulo="E-commerce"
-        formId="250e0624-0ad5-4154-993f-6ebd071ddf52"
+        formId="dca7acf7-bc81-49f9-b860-820f73ffc598"
         linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-e-commerce"
         cargaHoraria="60 horas"
         inicio="Agosto/2020"

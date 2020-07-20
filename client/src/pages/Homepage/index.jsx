@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../components/Header';
+import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
 import Footer from '../components/Footer';
 
 import heroe from '../../assets/heroe.jpg';
@@ -14,6 +15,8 @@ import './responsive.css';
 export default function Homepage() {
 
   const ContainerCategoriaDeCursos = ({ color, tituloDoCurso }) => {
+    const [mobileState, setMobileState] = useState('');
+
     const cursos = [
       {
         nomeDoCurso: 'Business Agility',
@@ -87,6 +90,11 @@ export default function Homepage() {
       }
     ];
 
+    function toggleMobileState(){
+      setMobileState(mobileState === '' ? 'open' : '');
+      console.log(mobileState)
+    }
+
     return (
       <div className="Container__Cursos">
         <section>
@@ -108,7 +116,10 @@ export default function Homepage() {
         </section>
 
         <section>
-          <div className="Courses">
+          <div 
+            className={`Courses ${mobileState}`}
+            onClick={() => toggleMobileState}
+          >
             {cursos.map((curso, indice) => {
               return (
                 <div key={indice} className="Course">
@@ -157,6 +168,7 @@ export default function Homepage() {
           tituloDoCurso="Inovação & Gestão"
         />
       </div>
+      <AlgumaDuvidaSection />
       <Footer />
     </React.Fragment>
   )

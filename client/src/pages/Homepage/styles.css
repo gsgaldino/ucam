@@ -46,17 +46,7 @@
   width: 100%;
 }
 
-.Homepage .padding ,.Modules__Section.open .content {
-  padding-top: 30px;
-}
-
-.Homepage .padding .Modules__Section .content .Container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.Homepage .padding .Modules__Section .content .Container a {
+.Homepage .Modules__Section .content .Container a {
   background: var(--primary-color);
   display: block;
   color: #fff;
@@ -65,3 +55,62 @@
   font-weight: 600;
   border-radius: 14px;
 }
+
+/* Estilização componente categoria de cursos */
+
+.Homepage {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.Homepage .Container__Cursos {
+  width: 90%;
+  box-shadow: 0 0 40px rgba(0,0,0,.2);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.Homepage .Container__Cursos section {
+  display: flex;
+  text-align: left;
+}
+
+.Homepage .Container__Cursos section .container:first-child {
+  width: 70px;
+}
+
+.Homepage .Container__Cursos section .container:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.Homepage .Container__Cursos .container img {
+  position: relative;
+  width: 100%;
+}
+
+.Homepage .Container__Cursos section .Courses {
+  width: 100%;
+}
+
+.Homepage .Container__Cursos section .Courses .Course {
+  width: 25%;
+  margin: 10px auto;
+  display: block;
+  float: left;
+}
+
+.Homepage .Container__Cursos section .Courses .Course p strong {
+  transition: filter 0.4s ease;
+}
+
+.Homepage .Container__Cursos section .Courses .Course p strong:hover {
+  filter: brightness(120%);
+}
+
+/* Fim da estilização do componente categoria de cursos */
